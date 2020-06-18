@@ -1,0 +1,29 @@
+(Algoritmo: Calculadora Taxa Metabólica Basal)
+
+Escreva: "Digite seu nome ..."
+    Leia (nome)
+Escreva: "Bem vindo (nome)!"
+    Escreva: "informe sua idade ..."
+        Leia (idade)
+    Escreva: "informe sua altura em cm ..."
+        Leia (altura)
+    Escreva: "informe seu peso em quilos ..."
+        Leia (peso)
+    Escreva: "Escolha seu sexo:"
+        Escreva: "(M)= Masculino ou (F)= Feminino"
+            Leia (sexo{(M)= Masculino ou (F)= Feminino})
+                Se (M)= True então:
+
+                    10 a 18 anos: 17,5 X peso (kg) + 651 = (ResultadoTMB)
+                    18 a 30 anos: 15,3 X peso (kg) + 679 = (ResultadoTMB)
+                    30 a 60 anos: 8,7 X peso (kg) + 879 = (ResultadoTMB)
+                    Acima de 60 anos: 13,5 X peso (kg) + 487 = (ResultadoTMB)
+                
+                Se (F)= True então:
+
+                    10 a 18 anos: 12,2 X peso (kg) + 746 = (ResultadoTMB)
+                    18 a 30 anos: 14,7 X peso (kg) + 496 = (ResultadoTMB)
+                    30 a 60 anos: 8,7 X peso (kg) + 829 = (ResultadoTMB)
+                    Acima de 60 anos: 10,5 X peso (kg) + 596 = (ResultadoTMB)
+            
+            Escreva: "Sua Taxa Metabólica Basal é (ResultadoTMB)"
